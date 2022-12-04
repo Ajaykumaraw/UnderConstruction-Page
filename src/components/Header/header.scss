@@ -1,0 +1,30 @@
+.header-sec{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    margin-top:0 ;
+
+    .logo-sect{
+        margin-left: 5rem;
+        margin-top: 4rem;
+        font-size: 2rem;
+        color: rgb(255, 255, 255);
+    }
+    nav{
+        width: 20rem;
+        margin-left: 2rem;
+        .list li{
+            list-style: none;
+            margin-top: 6rem;
+            margin-right: 3rem;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(96, 194, 177);
+            font-size: 1.5rem;
+        }
+    }
+}

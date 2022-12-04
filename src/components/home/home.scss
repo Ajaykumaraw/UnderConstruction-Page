@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.home-sec{
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    height: 120vh;
+    margin: 0rem auto;
+    background-size: cover;
+    background-image: linear-gradient(rgb(26, 65, 66), rgb(28, 68, 78));
+    object-fit: cover;
+        .cover-img{
+            width: 100%;
+            height: 120vh;
+            background-size: cover;
+            object-fit: cover;
+            position:relative;
+            z-index: 1;
+        }
+
+            // header
+
+        .header-sec{
+            width: 100%;
+            height: 4rem;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            justify-content: space-between;
+            margin-top:0 ;
+            z-index: 200;
+            
+
+            .logo-sect{
+                margin-left: 5rem;
+                margin-top: 4rem;
+                font-size: 2rem;
+                color: rgb(255, 255, 255);
+                font-family: 'Abel', sans-serif;
+            }
+            nav{
+                width: 20rem;
+                margin-left: 2rem;
+                .list li{
+                    list-style: none;
+                    margin-top: 6rem;
+                    margin-right: 3rem;
+                }
+                a{
+                    text-decoration: none;
+                    color: rgb(96, 194, 177);
+                    font-size: 1.5rem;
+                    font-family: 'Abel', sans-serif;
+                }
+            }
+        }
+            //header
+
+    .home-content{
+        height: 120vh;
+        display: block;
+        text-align: center;
+        align-items: center;
+        margin-top: 8rem;
+        background-image: linear-gradient(rgb(23, 65, 68), rgb(61, 129, 103));
+        .title{
+            font-size: 6.8rem;
+            text-align: center;
+            font-family: 'Abel', sans-serif;
+            font-weight: bolder;
+        }
+        .subtitle{
+            font-size: 1.1rem;
+            font-family: 'Abel', sans-serif;
+            letter-spacing: .4rem;
+            margin: 1rem;
+        }
+        .progressbar{
+            width: 24rem;
+            height: 1rem;
+            background: #eee;
+            margin: 1rem auto;
+        }
+        .inner-div{
+            width: 17rem;
+            height: 1rem;
+            background: rgb(153, 196, 204);
+        }
+        .lables{
+            width: 24rem;
+            height: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: .8rem;
+        }
+        .btn-sect{
+            button{
+                width: 9rem;
+                height: 2.5rem;
+                background: rgb(153, 196, 204);
+                color: rgb(26, 26, 26);
+                font-family: 'Abel', sans-serif;
+                font-size: 1.1rem;
+                letter-spacing: 1px;
+                margin: 2rem;
+                border: none;
+                padding: .6rem 2rem;
+            }
+        }
+        .socialbtn-sect{
+            width: 25rem;
+            height: 5rem;
+            margin: 4rem auto;
+            display: flex;
+            justify-content: space-between;
+            .socialbtn{
+                width: 5rem;
+                height: 5rem;
+                border-radius: 50%;
+                font-size: 1.4rem;
+                display: flex;
+                border: 1px solid rgb(255, 255, 255);
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 3rem;
+            }
+        }
+        .copyright-area{
+            color: rgb(255, 255, 255);
+            margin-top: 7rem;
+            font-family: 'Abel', sans-serif;
+            float: bottom;
+            font-size: 1.2rem;
+        }
+        
+    }
+
+
+
+}
